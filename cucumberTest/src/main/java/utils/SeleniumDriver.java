@@ -24,8 +24,6 @@ public class SeleniumDriver {
 
 	private SeleniumDriver() {
 
-		System.setProperty("webdriver.chrome.driver",
-				"E:\\My_Workspace\\basic\\Cucumber-framework-testNG-1\\Cucumber_framework\\chromedriver.exe");
 		driver = new ChromeDriver();
 		// driver = new FirefoxDriver();
 		driver.manage().window().maximize();
